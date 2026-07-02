@@ -1,0 +1,13 @@
+{#-
+  Keep the repo link visible on MkDocs' standalone 404 page as well.
+-#}
+{% extends "main.html" %}
+
+{% block content %}
+  <h1>404 - Not found</h1>
+  <p class="vizion3d-repo-link">
+    <a href="https://github.com/OlafenwaMoses/vizion3D" target="_blank" rel="noopener">
+      GitHub repository: OlafenwaMoses/vizion3D
+    </a>
+  </p>
+{% endblock %}
