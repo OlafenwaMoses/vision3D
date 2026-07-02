@@ -3,6 +3,7 @@ site_url: https://docs.vizion3d.org/
 site_description: Unified 3D Computer Vision Library
 theme:
   name: material
+  custom_dir: overrides
   features:
     - navigation.tabs
     - navigation.sections
